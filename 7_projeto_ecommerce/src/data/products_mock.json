@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Produto 1",
+    "price": 100.0,
+    "image": "https://source.unsplash.com/featured/?watch"
+  },
+  {
+    "id": 2,
+    "name": "Produto 2",
+    "price": 150.0,
+    "image": "https://source.unsplash.com/featured/?ring"
+  },
+  {
+    "id": 3,
+    "name": "Produto 3",
+    "price": 200.0,
+    "image": "https://source.unsplash.com/featured/?earring"
+  },
+  {
+    "id": 4,
+    "name": "Produto 4",
+    "price": 250.0,
+    "image": "https://source.unsplash.com/featured/?bracelet"
+  },
+  {
+    "id": 5,
+    "name": "Produto 5",
+    "price": 300.0,
+    "image": "https://source.unsplash.com/featured/?necklace"
+  }
+]
