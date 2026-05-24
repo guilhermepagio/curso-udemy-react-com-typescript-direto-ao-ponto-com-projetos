@@ -49,3 +49,50 @@ nav a {
   max-height: 200px;
   object-fit: contain;
 }
+
+.product h3,
+.cart-item h3 {
+  margin-top: 0;
+}
+
+.cart-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.product button,
+.cart-item button,
+.total button,
+.thank-you button {
+  background-color: #5cb86c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.product button:hover,
+.cart-item button:hover,
+.total button:hover,
+.thank-you button:hover {
+  background-color: #4cae4c;
+}
+
+.cart-buttons .remove {
+  background-color: #d9534f;
+}
+
+.cart-buttons .remove:hover {
+  background-color: #c9302c;
+}
+
+.total {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.total p {
+  font-size: 1.2em;
+  font-weight: bold;
+}
