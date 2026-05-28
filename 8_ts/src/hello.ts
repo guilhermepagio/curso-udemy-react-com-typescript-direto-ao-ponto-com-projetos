@@ -1,1 +1,1 @@
-console.log("Hello, TypeScript 2!");
+console.log("Hello, TypeScript 3!");
