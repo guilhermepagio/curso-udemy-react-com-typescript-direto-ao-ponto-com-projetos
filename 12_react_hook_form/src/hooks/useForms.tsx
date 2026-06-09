@@ -1,0 +1,16 @@
+import { zodResolver } from "@hookform/resolvers/zod";
+import { useForm } from "react-hook-form";
+import { type FormSchema, formSchema } from "../schemas/formSchema";
+
+export const useForms = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors, isValid },
+  } = useForm<FormSchema>({
+    resolver: zodResolver(formSchema),
+    mode: "all",
+  });
+
+  return { register, handleSubmit, errors, isValid };
+};
