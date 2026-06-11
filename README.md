@@ -17,7 +17,7 @@ O repositório está organizado em módulos numerados, cada um correspondendo a 
 ```
 📦 curso-udemy-react-com-typescript-direto-ao-ponto-com-projetos
  ┣ 📁 1_setup              → Configuração do ambiente de desenvolvimento
- ┣ 📁 2_fundamentos        → Fundamentos do React (props, estado, eventos, renderização condicional)
+ ┣ 📁 2_fundamentos        → Fundamentos do React (props, estado, eventos, render condicional)
  ┣ 📁 3_hooks              → Hooks do React (useState, useEffect, useContext, custom hooks)
  ┣ 📁 4_todo_list          → Projeto: Lista de Tarefas (To-Do List)
  ┣ 📁 5_react_router       → Navegação com React Router DOM
